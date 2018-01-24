@@ -1,7 +1,9 @@
 UltniSnips Terraform Snippets
 ===
 
-This is a fork of another great users work of [hfm/terraform-snippets.vim](https://github.com/hfm/terraform-snippets.vim)
+This is a fork of another great users work:
+ - [hfm/terraform-snippets.vim](https://github.com/hfm/terraform-snippets.vim)
+ - [cwood/terraform-snippets.vim](https://github.com/cwood/terraform-snippets.vim)
 
 This is vim snippets for [Terraform](//terraform.io/) inspired by [serverspec-snippets](//github.com/glidenote/serverspec-snippets).
 
@@ -11,7 +13,7 @@ Install
 ### Vim-Plug
 
 ``` vim
-Plug 'cwood/ultisnips-terraform-snippets'
+Plug 'lordspacehog/ultisnips-terraform-snippets'
 ```
 
 ### Usage
@@ -24,6 +26,8 @@ open *.tf files and set filetype `terraform`
 
 or terraform plugins:
 
+- https://github.com/hashivim/vim-terraform
+- https://github.com/hashivim/vim-hashicorp-tools
 - https://github.com/markcornick/vim-terraform
 - https://github.com/bkad/vim-terraform
 
